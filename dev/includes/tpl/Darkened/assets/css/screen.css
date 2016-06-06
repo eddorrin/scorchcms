@@ -1,0 +1,170 @@
+body, html {
+ font-family: Tahoma;
+ background-color: #2C3539;
+ background-image: url('../img/Fairground_Background.png');
+ background-size: 100%;
+ background-position: absolute;
+ overflow: hidden;
+ margin:0;
+ padding:0;
+}
+#wrapper {
+font-size: 1em;
+margin: 0 auto;
+margin-top: 13%;
+width: 30%;
+overflow: hidden;
+padding: 1%;
+
+}
+.logo {
+width: 50%;
+float: left;
+}
+.logo img {
+max-width: 100%;
+}
+.users_online {
+width: 30%;
+ font-family: Tahoma;
+float: right;
+background-color: #add8e6;
+opacity: 0.8;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-o-border-radius: 6px;
+padding: 4%;
+text-align: center;
+font-weight: bold;
+}
+#box {
+background-color: #FFF;
+font-size: 1em;
+color: #888;
+opacity: 0.9;
+margin: 0 auto;
+margin-top: 0.5%;
+width: 30%;
+overflow: hidden;
+padding: 1%;
+}
+#box p {
+margin: 1%;
+font-size: 1em;
+overflow: hidden;
+color: #777;
+}
+#box a:link {
+color: #888;
+margin-top: 5%;
+text-decoration:none;
+}
+#box a:visited {
+color: #888;
+margin-top: 5%;
+text-decoration:none;
+}
+#box a:hover {
+color: #888;
+margin-top: 5%;
+text-decoration:underline;
+}
+#box a:active {
+color: #888;
+margin-top: 5%;
+text-decoration:none;
+}
+#box h1 {
+color: #444;
+font-size: 2em;
+margin: 2%;
+text-align: center;
+text-shadow: 2px 2px 1px #888;
+}
+input[name="uemail"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+}
+input[name="lpass"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+margin-top: 1%;
+}
+input[name="login"] {
+opacity: 1;
+font-size: 1.2em;
+width: 102%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 4%;
+margin-top: 1%;
+color: #888;
+font-weight: bold;
+}
+input[name="username"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+}
+input[name="password"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+margin-top: 1%;
+}
+input[name="rpassword"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+margin-top: 1%;
+}
+input[name="email"] {
+width: 95%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 3%;
+margin-top: 1%;
+}
+input[name="reg"] {
+opacity: 1;
+font-size: 1.2em;
+width: 102%;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #CCC;
+padding: 4%;
+margin-top: 1%;
+color: #888;
+font-weight: bold;
+}

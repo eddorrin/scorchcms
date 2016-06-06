@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>{site_name}</title>
+<link rel="shortcut icon" href="{site_path}/includes/favicon.png" type="image/x-icon" />
+<meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="{site_path}/includes/tpl/Darkened/assets/css/screen.css" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+ <div class="logo">
+ <a href="{site_path}"><img src="{site_logo}"></a>
+ </div>
+ <div class="users_online">
+  {users_online} Users Online
+ </div>
+</div>
+<div id="box">
+ <h1>Login to {site_name}!</h1>
+ <p>
+  <form action="" method="post">
+   <input type="textbox" name="uemail" placeholder="Email/Username">
+   <input type="password" name="lpass" placeholder="Password">
+   <input type="submit" name="login" value="Login">
+  </form>
+ </p>
+ <p>
+  <a href="/register">Haven't got a user? Create one today for free!</a>
+ </p>
+</div>
+</body>
+</html>

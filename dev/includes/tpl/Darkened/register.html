@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>{site_name}</title>
+<link rel="shortcut icon" href="{site_path}/includes/favicon.png" type="image/x-icon" />
+<meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="{site_path}/includes/tpl/Darkened/assets/css/screen.css" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+ <div class="logo">
+ <a href="{site_path}"><img src="{site_logo}"></a>
+ </div>
+ <div class="users_online">
+  {users_online} Users Online
+ </div>
+</div>
+<div id="box">
+ <h1>Register at {site_name}!</h1>
+ <p>
+  <form action="" method="post">
+   <input type="textbox" name="username" placeholder="Desired Username">
+   <input type="password" name="password" placeholder="Password">
+   <input type="password" name="rpassword" placeholder="Repeat Password">
+   <input type="textbox" name="email" placeholder="Your E-Mail address">
+   Male: <input type="radio" name="gender" value="M">
+   Female: <input type="radio" name="gender" value="F">
+   <input type="submit" name="reg" value="Register">
+  </form>
+ </p>
+ <p>
+  <a href="{site_path}/index">Already got a user? Login here!</a>
+ </p>
+</div>
+</body>
+</html>
